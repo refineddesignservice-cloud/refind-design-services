@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Re-Find Design Services | Event Rentals & Design</title>
+<style>
+:root{
+  --cream:#f6f1e8; --linen:#e8dece; --brown:#705a48;
+  --dark:#332b25; --sage:#87917b; --gold:#b79a63; --white:#fffdf9;
+}
+*{box-sizing:border-box} body{margin:0;font-family:Georgia,serif;background:var(--cream);color:var(--dark)}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 7%;background:rgba(255,253,249,.96);position:sticky;top:0;z-index:5;border-bottom:1px solid var(--linen)}
+.logo{font-size:22px;letter-spacing:2px;font-weight:bold}.logo span{font-size:11px;display:block;letter-spacing:3px;color:var(--sage);margin-top:4px}
+.links a{margin-left:20px;color:var(--dark);text-decoration:none;font-size:14px}
+.hero{min-height:620px;padding:80px 10%;display:flex;align-items:center;background:linear-gradient(110deg,rgba(51,43,37,.62),rgba(51,43,37,.18)),url('https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1800&q=80') center/cover}
+.hero div{max-width:650px;color:white}.eyebrow{letter-spacing:4px;font-size:13px;color:#eadcc4}
+h1{font-size:clamp(48px,8vw,90px);line-height:.95;margin:18px 0}h2{font-size:40px;margin:0 0 15px}
+.btn{display:inline-block;padding:15px 25px;background:var(--gold);color:white;text-decoration:none;margin:15px 10px 0 0;border-radius:2px;font-size:14px}
+.btn.light{background:transparent;border:1px solid white}
+section{padding:75px 10%;text-align:center}.intro{max-width:800px;margin:auto;font-size:19px;line-height:1.7;color:#5e5046}
+.services{background:var(--white)}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:35px}
+.card{padding:35px 22px;background:var(--cream);border:1px solid var(--linen);text-align:left}.card h3{font-size:23px;color:var(--brown)}.card p{line-height:1.6}
+.inventory{background:var(--sage);color:white}.items{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:28px}.item{padding:12px 20px;border:1px solid rgba(255,255,255,.5)}
+.quote{background:var(--linen)}form{max-width:700px;margin:30px auto;text-align:left;display:grid;gap:15px}input,textarea,select{padding:15px;border:1px solid #cbbda9;background:white;font-family:Arial,sans-serif;width:100%}textarea{min-height:130px}.submit{border:0;background:var(--brown);color:white;padding:16px;font-size:15px;cursor:pointer}
+footer{background:var(--dark);color:#eee;text-align:center;padding:45px 10%;line-height:1.8}.small{font-size:13px;color:#cfc4b8}
+@media(max-width:750px){nav{padding:15px 5%}.links{display:none}.cards{grid-template-columns:1fr}.hero{min-height:560px;padding:60px 8%}section{padding:60px 7%}}
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">RE-FIND<span>DESIGN SERVICES</span></div>
+  <div class="links">
+    <a href="#home">HOME</a><a href="#services">SERVICES</a><a href="#rentals">RENTALS</a><a href="#quote">QUOTE</a>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <div>
+    <div class="eyebrow">RUSTIC • ELEGANT • CURATED</div>
+    <h1>Beautifully<br>Re-Found.</h1>
+    <p style="font-size:20px;line-height:1.6">Curated event rentals, décor, and design services for weddings, celebrations, and unforgettable spaces.</p>
+    <a class="btn" href="#quote">REQUEST A QUOTE</a>
+    <a class="btn light" href="#rentals">EXPLORE RENTALS</a>
+  </div>
+</header>
+
+<section>
+  <div class="eyebrow" style="color:var(--sage)">WELCOME TO RE-FIND</div>
+  <h2>Where unique pieces find a beautiful new purpose.</h2>
+  <p class="intro">At Re-Find Design Services, we bring together rustic charm, elegant details, and thoughtfully curated pieces to help create spaces and events that feel completely your own.</p>
+</section>
+
+<section class="services" id="services">
+  <div class="eyebrow" style="color:var(--sage)">WHAT WE OFFER</div>
+  <h2>Designed for the Details</h2>
+  <div class="cards">
+    <div class="card"><h3>Event Rentals</h3><p>Beautiful and practical pieces for weddings, parties, celebrations, and special events.</p></div>
+    <div class="card"><h3>Event Design</h3><p>Thoughtful styling and creative ideas to help bring your vision to life.</p></div>
+    <div class="card"><h3>Curated Décor</h3><p>Unique décor and re-found pieces selected to add personality and charm to your event or space.</p></div>
+  </div>
+</section>
+
+<section class="inventory" id="rentals">
+  <div class="eyebrow">OUR CURRENT RENTAL COLLECTION</div>
+  <h2>Pieces Made for Gathering</h2>
+  <div class="items">
+    <div class="item">Black Folding Chairs</div>
+    <div class="item">Linens</div>
+    <div class="item">Table Runners</div>
+    <div class="item">Chargers</div>
+    <div class="item">Cloth Napkins</div>
+    <div class="item">Silk Flowers</div>
+    <div class="item">Hurricanes</div>
+    <div class="item">Bud Vases</div>
+    <div class="item">Specialty Décor</div>
+  </div>
+  <p style="margin-top:30px">Our inventory is always growing. Contact us to ask about availability!</p>
+</section>
+
+<section>
+  <div class="eyebrow" style="color:var(--sage)">WEDDINGS • PARTIES • EVENTS</div>
+  <h2>Let's Create Something Beautiful</h2>
+  <p class="intro">Whether you're planning an intimate gathering or a large celebration, we're here to help you find the pieces and details that make your vision feel special.</p>
+</section>
+
+<section class="quote" id="quote">
+  <div class="eyebrow" style="color:var(--sage)">GET STARTED</div>
+  <h2>Request a Quote</h2>
+  <p>Tell us a little about your event and what you're looking for.</p>
+  <form onsubmit="event.preventDefault(); alert('Thank you! Your quote request has been received.');">
+    <input placeholder="Your Name" required>
+    <input type="email" placeholder="Email Address" required>
+    <input placeholder="Phone Number">
+    <input type="date" aria-label="Event Date">
+    <select><option>Type of Event</option><option>Wedding</option><option>Party</option><option>Corporate Event</option><option>Other</option></select>
+    <textarea placeholder="Tell us about your event and what rentals or services you're interested in."></textarea>
+    <button class="submit">SEND MY REQUEST</button>
+  </form>
+</section>
+
+<footer>
+  <div class="logo">RE-FIND<span>DESIGN SERVICES</span></div>
+  <p>Event Rentals • Décor • Design Services</p>
+  <p>Serving Oregon & the Pacific Northwest</p>
+  <p class="small">© 2026 Re-Find Design Services</p>
+</footer>
+</body>
+</html>
